@@ -1,4 +1,4 @@
-# firtst-admin
+# vue-my-projects
 
 ## Project setup
 ```
