@@ -1,0 +1,1 @@
+const isMatched = (query) => window.matchMedia(query).matches;export const sizeXS = isMatched('(max-width: 576px)');export const sizeSM = isMatched('(max-width: 768px)');export const sizeMD = isMatched('(max-width: 991px)');
