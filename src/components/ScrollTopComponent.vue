@@ -27,34 +27,4 @@
 	}
 </script>
 
-<style lang="scss" scoped>
-	button {
-		position: fixed;
-		border: none;
-		right: 40px;
-		width: 50px;
-		height: 50px;
-		bottom: 50px;
-		border-radius: 50px;
-		background: #0E209D;
-
-		&:focus {
-			outline: 0;
-		}
-
-		&:before {
-			content: url("~@/assets/img/angle-arrow-down.svg");
-			width: 30px;
-			height: 30px;
-		}
-
-		&:after {
-			width: 50px;
-			height: 50px;
-			/*box-shadow:10px -10px 0px #B2BDCA;*/
-			border-radius: 50px;
-			background-color: #FAFBFD;
-		}
-
-	}
-</style>
+<style lang="scss" src="@/assets/scss/components/scroll-top.scss" scoped></style>

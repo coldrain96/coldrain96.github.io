@@ -10,7 +10,7 @@
 
 				<aside class="tools-card">
 					<div class="tools-card__img">
-						<i class="fab fa-html5 fa-5x"></i>
+						<i class="fab fa-html5 fa-4x"></i>
 					</div>
 					<div class="tools-card__content">
 					<span class="tools-card--text-bg-color">
@@ -22,7 +22,7 @@
 
 				<aside class="tools-card">
 					<div class="tools-card__img">
-						<i class="fab fa-css3-alt fa-5x"></i>
+						<i class="fab fa-css3-alt fa-4x"></i>
 					</div>
 					<div class="tools-card__content">
 					<span class="tools-card--text-bg-color">
@@ -36,7 +36,7 @@
 
 				<aside class="tools-card">
 					<div class="tools-card__img">
-						<i class="fab fa-js fa-5x"></i>
+						<i class="fab fa-js fa-4x"></i>
 					</div>
 					<div class="tools-card__content">
 					<span class="tools-card--text-bg-color">
@@ -50,7 +50,7 @@
 
 				<aside class="tools-card">
 					<div class="tools-card__img">
-						<i class="fab fa-sass fa-5x"></i>
+						<i class="fab fa-sass fa-4x"></i>
 					</div>
 					<div class="tools-card__content">
 					<span class="tools-card--text-bg-color">
@@ -64,7 +64,7 @@
 
 				<aside class="tools-card">
 					<div class="tools-card__img">
-						<i class="fab fa-git-alt fa-5x"></i>
+						<i class="fab fa-git-alt fa-4x"></i>
 					</div>
 					<div class="tools-card__content">
 					<span class="tools-card--text-bg-color">
@@ -77,7 +77,7 @@
 
 				<aside class="tools-card">
 					<div class="tools-card__img">
-						<i class="fab fa-bootstrap fa-5x"></i>
+						<i class="fab fa-bootstrap fa-4x"></i>
 					</div>
 					<div class="tools-card__content">
 					<span class="tools-card--text-bg-color">
@@ -104,69 +104,4 @@
 
 <script>
 </script>
-<style lang="scss" scoped>
-
-	.tools {
-	}
-
-	.tools h2 {
-		margin: 0 !important;
-		padding-top: 42px;
-		padding-bottom: 42px;
-	}
-
-	.tools__title {
-		text-align: center;
-	}
-
-	.tools__wrapper {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.tools-card {
-		width: 360px;
-		padding: 10px;
-		/*border: 1px solid rgba(0, 0, 0, 0.1);*/
-		margin: 5px;
-	}
-
-	.tools-card__img {
-	}
-
-	.post-scriptum {
-		margin-top: 50px;
-	}
-
-	.tools-card__content {
-		color: rgba(0, 0, 0, 1);
-	}
-
-	.tools-card--text-bg-color {
-		background-color: #f3f4f6;
-	}
-
-	.fa-html5 {
-		color: red
-	}
-
-	.fa-css3-alt {
-		color: blue
-	}
-
-	.fa-js {
-		color: yellow
-	}
-
-	.fa-sass {
-		color: pink
-	}
-
-	.fa-git-alt {
-
-	}
-
-	.fa-bootstrap {
-		color: blueviolet
-	}
-</style>
+<style lang="scss" src="@/assets/scss/components/tools.scss" scoped></style>

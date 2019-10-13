@@ -37,11 +37,11 @@
 									<div class="description">
 										<span>✒️project name:<br/> my-projects (Vue SPA) </span>
 										<span>🛠️ stack:<br/> HTML5&SASS, Vue, Vue-cli, Vue-router, Vue-validate, Vuex, Bootstrap 4</span>
-										<span>💻 display: true</span>
-										<span>📱 display: in progress</span>
-										<span>💰 production: false</span>
-										<span>🖮 source code: public</span>
-										<span>☕ drunk cups: 15</span>
+										<span>display on 💻:<br/> true</span>
+										<span>display on 📱:<br/> in progress</span>
+										<span>💰 production:<br/> false</span>
+										<span>🖮 source code:<br/> public</span>
+										<span>drunk cups of ☕:<br/> 15</span>
 										<span style="text-align: center">Total rate: 🧙‍♂️</span>
 									</div>
 								</div>
@@ -59,11 +59,11 @@
 									<div class="description">
 										<span>✒️project name:<br/> book-main</span>
 										<span>🛠️ stack:<br/>Flex, JQuery, HTML5&CSS3</span>
-										<span>💻 display: true</span>
-										<span>📱 display: false</span>
+										<span>display on 💻: true</span>
+										<span>display on 📱: false</span>
 										<span>💰 production: false</span>
-										<span>🖮 source code: protected</span>
-										<span>☕ drunk cups: 3</span>
+										<span>🖮 source code:<br/> protected</span>
+										<span>drunk cups of ☕:<br/> 3</span>
 										<span style="text-align: center">Total rate: 🌴</span>
 									</div>
 								</div>
@@ -81,11 +81,11 @@
 									<div class="description">
 										<span>✒️project name:<br/> uksivt</span>
 										<span>🛠️ stack:<br/> HTML5&SASS, JQuery, Smartgrid, Gulp</span>
-										<span>💻 display: true</span>
-										<span>📱 display: false</span>
-										<span>💰 production: false</span>
-										<span>🖮 source code: protected</span>
-										<span>☕ drunk cups: 10</span>
+										<span>display on 💻:<br/> true</span>
+										<span>display on 📱:<br/> false</span>
+										<span>💰 production:<br/> false</span>
+										<span>🖮 source code:<br/> protected</span>
+										<span>drunk cups of ☕:<br/> 10</span>
 										<span style="text-align: center">Total rate: 🎓</span>
 									</div>
 								</div>
@@ -103,12 +103,12 @@
 									<div class="description">
 										<span>✒️project name:<br/> nika (Themeforest template)</span>
 										<span>🛠️ stack:<br/>HTML5&CSS3, </span>
-										<span>💻 display: true</span>
-										<span>📱 display: true</span>
-										<span>💰 production: true</span>
-										<span>🖮 source code: protected</span>
-										<span>☕ drunk cups: 3</span>
-										<span style="text-align: center">Total rate: 🌴</span>
+										<span>display on 💻:<br/> true</span>
+										<span>display on 📱:<br/> true</span>
+										<span>💰 production:<br/> true</span>
+										<span>🖮 source code:<br/> protected</span>
+										<span>drunk cups of ☕:<br/> 3</span>
+										<span style="text-align: center">Total rate: ⌚</span>
 									</div>
 								</div>
 							</div>
@@ -125,11 +125,11 @@
 									<div class="description">
 										<span>✒️project name:<br/> the new providence</span>
 										<span>🛠️ stack:<br/>Flex, HTML5&CSS3</span>
-										<span>💻 display: true</span>
-										<span>📱 display: false</span>
-										<span>💰 production: false</span>
-										<span>🖮 source code: public</span>
-										<span>☕ drunk cups: 10</span>
+										<span>display on 💻:<br/> true</span>
+										<span>display on 📱:<br/> false</span>
+										<span>💰 production:<br/> false</span>
+										<span>🖮 source code:<br/> public</span>
+										<span>drunk cups of ☕:<br/> 10</span>
 										<span style="text-align: center">Total rate: 😏</span>
 									</div>
 								</div>
@@ -147,11 +147,11 @@
 									<div class="description">
 										<span>✒️project name:<br/> my-projects (landing page)</span>
 										<span>🛠️ stack:<br/> Flex, JQuery, HTML5&CSS3</span>
-										<span>💻 display: true</span>
-										<span>📱 display: false</span>
-										<span>💰 production: false</span>
-										<span>🖮 source code: public</span>
-										<span>☕ drunk cups: 10</span>
+										<span>display on 💻:<br/> true</span>
+										<span>display on 📱:<br/> false</span>
+										<span>💰 production:<br/> false</span>
+										<span>🖮 source code:<br/> public</span>
+										<span>drunk cups of ☕:<br/> 10</span>
 										<span style="text-align: center">Total rate: 👏</span>
 									</div>
 								</div>
@@ -169,11 +169,11 @@
 									<div class="description">
 										<span>✒️project name:<br/> profstyle</span>
 										<span>🛠️ stack:<br/> HTML5&SASS, Smartgrid, JQuery, Gulp</span>
-										<span>💻 display: true</span>
-										<span>📱 display: true</span>
-										<span>💰 production: true</span>
-										<span>🖮 source code: protected</span>
-										<span>☕ drunk cups: 15</span>
+										<span>display on 💻:<br/> true</span>
+										<span>display on 📱:<br/> true</span>
+										<span>💰 production:<br/> true</span>
+										<span>🖮 source code:<br/> protected</span>
+										<span>drunk cups of ☕:<br/> 15</span>
 										<span style="text-align: center">Total rate: 👍</span>
 									</div>
 								</div>
@@ -193,117 +193,4 @@
         components: {}
     }
 </script>
-<style lang="scss" scoped>
-
-	.projects {
-		position: relative;
-	}
-
-	.projects h2 {
-		text-align: center;
-	}
-
-	.projects-title__border {
-		width: 50px;
-		border-bottom: 2px solid #267df4;
-	}
-
-	.projects__wrap {
-		margin: 0 auto;
-		display: flex;
-		flex-wrap: wrap;
-		padding-bottom: 50px;
-	}
-
-	.card-item {
-		padding: 10px 5px;
-	}
-
-	.card-item__front {
-		max-width: 350px;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		/*border: 1px solid rgba(0, 0, 0, 0.7);*/
-		& img {
-			min-width: 100%;
-		}
-	}
-
-	.card-item:hover .card-item__back {
-		display: block;
-		transition: width .2s;
-	}
-
-	.card-item__back {
-		display: none;
-
-		background-color: rgba(0, 0, 0, 0.7);
-		z-index: 100;
-		position: absolute;
-		top: 10px;
-		width: 350px;
-		height: 98.5%;
-
-		& .description {
-			color: #ffffff;
-			/*font-size: 34px;*/
-			font-size: 28px;
-			flex-direction: column;
-			display: flex;
-			padding: 50px 20px 40px 20px;
-			/*align-items: center;*/
-			overflow: hidden;
-
-			& span {
-				text-align: center;
-				animation: fadeInLeftBig 0.5s;
-				margin-bottom: 15px;
-
-				&:after {
-					content: "";
-					width: 10px;
-					height: 1px;
-					border-bottom: solid 20px rgba(255, 255, 255, 0.3);
-				}
-				&:last-child {
-					border-bottom:none;
-				}
-			}
-
-			& span:nth-child(1) {
-				transition: all .4s;
-			}
-
-			& span:nth-child(2) {
-				/*animation: fadeInLeftBig 1s;*/
-			}
-
-			& span:nth-child(3) {
-				/*animation: fadeInLeftBig 1s;*/
-			}
-
-			& span:nth-child(4) {
-				/*animation: fadeInLeftBig 1s;*/
-			}
-
-			& span:nth-child(5) {
-				/*animation: fadeInLeftBig 1s;*/
-			}
-
-			& span:nth-child(6) {
-				/*animation: fadeInLeftBig 1s;*/
-			}
-
-			& span:nth-child(7) {
-				/*animation: fadeInLeftBig 1s;*/
-			}
-		}
-	}
-
-	/*.card_item__front:hover .card_item__back{*/
-	/*	background-color: rgba(0, 0, 0, 0.2);*/
-	/*}*/
-
-	.item-preview {
-		max-width: 350px;
-	}
-</style>
+<style lang="scss" src="@/assets/scss/components/projects.scss" scoped></style>

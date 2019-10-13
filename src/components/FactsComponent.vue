@@ -1,92 +1,47 @@
 <template>
-	<section class="about">
+	<section class="facts">
 		<div class="container">
 
-			<div class="interesting-facts vh-100 align-items-center">
-				<h2 class="interesting-facts__title">
+			<div class="facts--wrapper vh-100 align-items-center">
+				<h2 class="facts__title">
 					Интересные факты
 				</h2>
-				<ul class="interesting-facts__list">
-					<li class="interesting-facts__item">
-						Большой фанат Dram and bass музыки и Rave культуры.
-					</li>
-					<li class="interesting-facts__item">
-						На момент задумки создания веб-сайта злоупотреблял сахаром, хотел написать об этом, но с недавних пор отказался от него. Теперь
-						пью чай и кофе без сахара.
-					</li>
-					<li class="interesting-facts__item">
-						Читаю бумажные книги и мангу. Возможно, это не практично (и дорого!), но что сравнится с запахом и осязанием новой книги?
-					</li>
-					<li class="interesting-facts__item">
-						Люблю различные языки и культуры народов. В душе я авантюрист и путешественник. Сейчас всерьез обучаюсь только английскому.
-					</li>
-				</ul>
+				<div class="facts__info">
+					<div class="facts__count">
+						<!--						текущий индекс массива + 1-->
+						/{{ factsItemMessage.length }}
+					</div>
+					<div class="facts__text" @click="counter()">
+						{{ factsItemMessage[5] }}
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 </template>
 
 <script>
+    export default {
+        data: () => ({
+            factsItemMessage: [
+                'Большой фанат Dram and bass музыки и Rave культуры. Так же люблю jazz, hip-hop, jungle.',
+                'На момент задумки создания веб-сайта злоупотреблял сахаром, но с недавних пор отказался от него. Пью чай и кофе без сахара.',
+                'Читаю бумажные книги и мангу. Возможно, это не практично и дорого, но что сравнится с запахом и осязанием новой книги?',
+                'Авантюрист и путешественник. Люблю различные языки и культуры народов. Сейчас обучаюсь английскому.',
+                'С детства пишу стихи, а с отрочества - рассказы. Работаю над изданием сборника.',
+                'Лучший отдых - костер, палатка, природа.',
+                'Планирую покорить несколько горных вершин, полетать над ними на дельтаплане.',
+                'Самоучка-программист. Нахожу в программировании необъяснимую прелесть.',
+            ]
+        }),
+        methods: {
+            counter(factsItemMessage) {
+                for (let i = 0;i < factsItemMessage.length;i++) {
+                    factsItemMessage[0] ++;
+                }
+            }
+        }
+    }
 </script>
 
-<style lang="scss" scoped>
-	@import "~@/assets/scss/_mixins.scss";
-
-	.about {
-		height: auto;
-		font-size: 24px;
-
-		background-color: #f3f4f6;
-		border-radius: 5px;
-		background-image: url("~@/assets/img/flowers2.jpg");
-		background-repeat: no-repeat;
-		background-size: 200px;
-		background-position: 0% 100%;
-	}
-
-	.about {
-
-		&.container {
-			display: flex;
-			justify-content: center;
-			flex-direction: column;
-		}
-
-	}
-
-	.about-content {
-		padding-bottom: 30px;
-		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-		max-width: 700px;
-		margin: 0 auto;
-		text-align: center;
-		padding-top: 60px;
-	}
-
-	.about-content p {
-		color: rgba(0, 0, 0, 0.6);
-		display: flex;
-		justify-content: center;
-		max-width: 700px;
-	}
-
-	.about-content h2 {
-		margin-top: 80px;
-	}
-
-	.interesting-facts {
-		max-width: 700px;
-		margin: 0 auto;
-		text-align: left;
-	}
-
-	.interesting-facts h2 {
-		text-align: center;
-	}
-
-	.interesting-facts__item {
-		padding: 10px 0;
-		color: rgba(0, 0, 0, 0.6);
-		animation: fadeIn 3s;
-	}
-</style>
+<style lang="scss" src="@/assets/scss/facts-component.scss" scoped></style>
