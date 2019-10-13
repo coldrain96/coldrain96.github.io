@@ -1,0 +1,175 @@
+form {
+	display: flex;
+	justify-content: center;
+}
+
+.form-group {
+	max-width: 400px;
+}
+
+.madeWith {
+	max-height: 35px;
+}
+
+.contacts {
+	text-decoration: none !important;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contacts a {
+	-webkit-transition: all 0.1s ease;
+	-webkit-transition-delay: 0.1s;
+	font-size: 16px;
+	text-decoration: none !important;
+	color: #000000;
+}
+
+.social_network_link__group_2 {
+	font-size: 12px !important;
+}
+
+.contacts h2 {
+	text-align: center;
+}
+
+.contacts__wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.contacts-item {
+	list-style: none;
+	padding: 20px;
+}
+
+.contacts-item__image {
+	display: flex;
+	justify-content: center;
+}
+
+.contacts-item__title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social_networks_links__row {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contacts-item__title {
+	display: none;
+}
+
+
+.fa-telegram-plane {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.fa-telegram-plane:hover {
+	color: #0088cc;
+}
+
+.fa-vk {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.fa-vk:hover {
+	color: #597da3;
+}
+
+.fa-github {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.fa-github:hover {
+	color: rgba(0, 0, 0, 1);
+}
+
+.fa-gitlab:hover {
+	color: #fc6d26;
+}
+
+.fa-instagram {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.fa-instagram:hover {
+	color: #d31a5e;
+}
+
+.fa-skype {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.fa-skype:hover {
+	color: #0078d7;
+}
+
+.fa-envelope {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.fa-envelope:hover {
+	color: #f80404;
+}
+
+//////////////////////////////////
+
+.footer {
+	box-sizing: content-box;
+	background-repeat: no-repeat;
+}
+
+.footer-content {
+	display: flex;
+	margin: 0 auto 0 auto;
+	justify-content: center;
+}
+
+.created-by {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.created-by span {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.created-by span a {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+//.created-by span:nth-child() {
+//	font-size: 30px;
+//}
+
+//.created-by span:nth-child() {
+//	font-size: 30px;
+//	color: rgba(0, 0, 0, 0.8);
+//}
+
+//.created-by span:nth-child() {
+//	font-size: 24px;
+//}
+
+//.created-by span:nth-child() {
+//	font-size: 16px;
+//}
+
+.neutral-meme {
+	display: flex;
+	justify-content: center;
+
+	& img {
+		max-width: 640px;
+	}
+}
