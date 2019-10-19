@@ -27,4 +27,4 @@
 	</div>
 </template>
 
-<style lang="scss" src="@/assets/scss/navbar-component.scss" scoped></style>
+<style lang="scss" src="@/assets/scss/components/navbar-component.scss" scoped></style>

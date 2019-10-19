@@ -1,5 +1,5 @@
 <template>
-	<div id="app" v-on:keydown="redirect()">
+	<div id="app">
 		<!--		<Navbar></Navbar>-->
 		<Drawer/>
 		<router-view/>
@@ -36,15 +36,15 @@
             // Tools
         },
         methods: {
-            redirect() {
-                window.keydown = function (event) {
-                    if (event.keyCode === ArrowRight) {
-                        window.location.href = "/about";
-                    } else if (event.keyCode === ArrowLeft) {
-                        window.location.href = "/contacts";
-                    }
-                }
-            }
+            // redirect() {
+            //     window.keydown = function (event) {
+            //         if (event.keyCode === ArrowRight) {
+            //             window.location.href = "/about";
+            //         } else if (event.keyCode === ArrowLeft) {
+            //             window.location.href = "/contacts";
+            //         }
+            //     }
+            // }
         },
     };
 </script>

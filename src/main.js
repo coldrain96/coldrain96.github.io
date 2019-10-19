@@ -9,8 +9,11 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'animate.css/animate.min.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 
-Vue.use(Vuelidate)
+Vue.use(VueAwesomeSwiper);
+Vue.use(Vuelidate);
 Vue.use(BootstrapVue);
 Vue.use(router);
 Vue.use(VueRouter);

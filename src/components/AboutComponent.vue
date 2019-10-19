@@ -1,11 +1,11 @@
 <template>
-	<section class="home">
+	<section class="home" style="animation: fadeIn 2s;">
 		<b-container>
 			<b-row>
 				<b-col cols="12">
 					<b-row class="vh-100 align-items-center">
 
-						<b-col cols="6" style="animation: fadeIn 2s;">
+						<b-col cols="6">
 							<div class="header__photo">
 								<img src="~@/assets/img/bg_new2.jpeg" id="" class="header__photo--img" alt="">
 								<!--<img :src="feksfh" @mouseover="firstPhoto = secondPhoto"/ src="~@/assets/img/bg_new3.jpeg" id="" class="header__photo&#45;&#45;img" alt="">-->

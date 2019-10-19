@@ -1,5 +1,5 @@
 <template>
-	<section class="contacts">
+	<section class="contacts" style="animation: fadeIn 2s;">
 		<!--		<form action="">-->
 		<!--			<div class="form-group">-->
 

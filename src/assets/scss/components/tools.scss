@@ -16,9 +16,14 @@
 	display: flex;
 	flex-wrap: wrap;
 }
-
+.tools-row {
+	//width: 400px;
+	//position: absolute;
+}
 .tools-card {
-	width: 360px;
+	//width: 360px;
+	width: 100px;
+
 	padding: 10px;
 	/*border: 1px solid rgba(0, 0, 0, 0.1);*/
 	margin: 5px;
@@ -34,6 +39,7 @@
 .tools-card__content {
 	color: rgba(0, 0, 0, 1);
 	font-size: 16px;
+	text-align: center;
 }
 
 .tools-card--text-bg-color {
@@ -62,4 +68,20 @@
 
 .fa-bootstrap {
 	color: blueviolet
+}
+.vue-js {
+	width: 70px;
+	height: 80px;
+}
+.webpack {
+	width: 70px;
+	height: 80px;
+}
+.node-js {
+	width: 70px;
+	height: 80px;
+}
+.npm {
+	width: 70px;
+	height: 80px;
 }

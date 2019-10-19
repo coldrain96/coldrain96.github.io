@@ -1,5 +1,5 @@
 <template>
-	<section class="projects">
+	<section class="projects" style="animation: fadeIn 2s;">
 		<b-container>
 			<h2 class="projects-title">Проекты</h2>
 			<div v-masonry="containerId" transition-duration="0.3s" item-selector=".grid-item">
@@ -27,27 +27,27 @@
 						</a>
 					</div>
 
-					<div class="card-item grid-item">
-						<a href="#">
-							<div class="card-item__front">
-								<div class="img-wrap">
-									<img class="item-preview" src="~@/assets/img/preview/vue-my-projects.jpg" alt="">
-								</div>
-								<div class="card-item__back">
-									<div class="description">
-										<span>✒️project name:<br/> my-projects (Vue SPA) </span>
-										<span>🛠️ stack:<br/> HTML5&SASS, Vue, Vue-cli, Vue-router, Vue-validate, Vuex, Bootstrap 4</span>
-										<span>display on 💻:<br/> true</span>
-										<span>display on 📱:<br/> in progress</span>
-										<span>💰 production:<br/> false</span>
-										<span>🖮 source code:<br/> public</span>
-										<span>drunk cups of ☕:<br/> 15</span>
-										<span style="text-align: center">Total rate: 🧙‍♂️</span>
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
+<!--					<div class="card-item grid-item">-->
+<!--						<a href="#">-->
+<!--							<div class="card-item__front">-->
+<!--								<div class="img-wrap">-->
+<!--									<img class="item-preview" src="~@/assets/img/preview/vue-my-projects.jpg" alt="">-->
+<!--								</div>-->
+<!--								<div class="card-item__back">-->
+<!--									<div class="description">-->
+<!--										<span>✒️project name:<br/> my-projects (Vue SPA) </span>-->
+<!--										<span>🛠️ stack:<br/> HTML5&SASS, Vue, Vue-cli, Vue-router, Vue-validate, Vuex, Bootstrap 4</span>-->
+<!--										<span>display on 💻:<br/> true</span>-->
+<!--										<span>display on 📱:<br/> in progress</span>-->
+<!--										<span>💰 production:<br/> false</span>-->
+<!--										<span>🖮 source code:<br/> public</span>-->
+<!--										<span>drunk cups of ☕:<br/> 15</span>-->
+<!--										<span style="text-align: center">Total rate: 🧙‍♂️</span>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</a>-->
+<!--					</div>-->
 
 					<div class="card-item grid-item">
 						<a href="https://justtryagain.gitlab.io/my-projects/book-main">
