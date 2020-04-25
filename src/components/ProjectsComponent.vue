@@ -6,7 +6,7 @@
         <div v-masonry-tile class="item">
 
           <div class="card-item grid-item">
-            <a href="https://1st-admin.ru">
+            <a href="#">
               <div class="card-item__front">
                 <div class="img-wrap">
                   <img class="item-preview" src="~@/assets/img/preview/1st.jpg" alt="">
@@ -28,7 +28,7 @@
           </div>
 
           <div class="card-item grid-item">
-            <a href="">
+            <a href="#">
               <div class="card-item__front">
                 <div class="img-wrap">
                   <img class="item-preview" src="~@/assets/img/preview/book-main-10-rows.jpg"
