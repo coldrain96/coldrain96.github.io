@@ -1,87 +1,78 @@
 
-.tools {
-}
-
 .tools h2 {
-	margin: 0 !important;
-	padding-top: 42px;
-	padding-bottom: 42px;
+  margin: 0 !important;
+  padding-top: 42px;
+  padding-bottom: 42px;
 }
 
 .tools__title {
-	text-align: center;
+  text-align: center;
 }
 
 .tools__wrapper {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-.tools-row {
-	//width: 400px;
-	//position: absolute;
-}
+
 .tools-card {
-	//width: 360px;
-	width: 100px;
+  //width: 360px;
+  width: 100px;
 
-	padding: 10px;
-	/*border: 1px solid rgba(0, 0, 0, 0.1);*/
-	margin: 5px;
-}
-
-.tools-card__img {
+  padding: 10px;
+  /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+  margin: 5px;
 }
 
 .post-scriptum {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .tools-card__content {
-	color: rgba(0, 0, 0, 1);
-	font-size: 16px;
-	text-align: center;
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  text-align: center;
 }
 
 .tools-card--text-bg-color {
-	background-color: #f3f4f6;
+  background-color: #f3f4f6;
 }
 
 .fa-html5 {
-	color: red
+  color: red
 }
 
 .fa-css3-alt {
-	color: blue
+  color: blue
 }
 
 .fa-js {
-	color: yellow
+  color: yellow
 }
 
 .fa-sass {
-	color: pink
-}
-
-.fa-git-alt {
-
+  color: pink
 }
 
 .fa-bootstrap {
-	color: blueviolet
+  color: blueviolet
 }
+
 .vue-js {
-	width: 70px;
-	height: 80px;
+  width: 70px;
+  height: 80px;
 }
+
 .webpack {
-	width: 70px;
-	height: 80px;
+  width: 70px;
+  height: 80px;
 }
+
 .node-js {
-	width: 70px;
-	height: 80px;
+  width: 70px;
+  height: 80px;
 }
+
 .npm {
-	width: 70px;
-	height: 80px;
+  width: 70px;
+  height: 80px;
 }
