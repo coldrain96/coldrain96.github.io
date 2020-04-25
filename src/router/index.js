@@ -7,20 +7,24 @@ import Contacts from '../pages/Contacts'
 export default new Router({
   routes: [
     {
-      path: '',
-      component: About
+      path: '/',
+      component: About,
+      name: 'Обо мне'
     },
     {
       path: '/facts',
-      component: Facts
+      component: Facts,
+      name: 'Факты'
     },
     {
       path: '/projects',
-      component: Projects
+      component: Projects,
+      name: 'Проекты'
     },
     {
       path: '/contacts',
-      component: Contacts
+      component: Contacts,
+      name: 'Контакты'
     },
   ],
   mode: 'history'
