@@ -1,8 +1,6 @@
-import Router from 'vue-router';
-
+import Router from 'vue-router'
 import About from '../pages/About'
 import Facts from '../pages/Facts'
-// import Tools from '../pages/Tools'
 import Projects from '../pages/Projects'
 import Contacts from '../pages/Contacts'
 
@@ -16,10 +14,6 @@ export default new Router({
       path: '/facts',
       component: Facts
     },
-    // {
-    //   path: '/tools',
-    //   component: Tools
-    // },
     {
       path: '/projects',
       component: Projects
@@ -30,4 +24,4 @@ export default new Router({
     },
   ],
   mode: 'history'
-});
+})

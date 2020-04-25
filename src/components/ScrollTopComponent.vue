@@ -13,15 +13,15 @@
 		}),
 		mounted() {
 			window.onscroll = (e) => {
-				const scrollY = e.target.scrollingElement.ScrollTopComponent;
-				const offsetTop = document.getElementById('whyChooseUs').offsetTop;
-				this.show = false;
-				if (scrollY > offsetTop) this.show = true;
-			};
+				const scrollY = e.target.scrollingElement.ScrollTopComponent
+				const offsetTop = document.getElementById('whyChooseUs').offsetTop
+				this.show = false
+				if (scrollY > offsetTop) this.show = true
+			}
 		},
 		methods: {
 			scrollToTop() {
-				window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+				window.scrollTo({top: 0, left: 0, behavior: "smooth"})
 			}
 		}
 	}
