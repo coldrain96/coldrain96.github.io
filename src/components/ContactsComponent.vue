@@ -1,58 +1,23 @@
 <template>
   <section class="contacts" style="animation: fadeIn 2s;">
-    <h2>
-      Открыт к вашим предложениям, <br/>новым знакомствам, <br/>и приключениям!
-    </h2>
+    <h2 v-html="getMessage"></h2>
     <div class="container">
       <div class="contacts__wrapper">
-
         <div class="social_networks_links__row">
 
-          <div class="contacts-item">
-            <a href="https://tele.click/coldrain96" target="_blank">
+          <div v-for="contactItem in getContactItemsArray" :key="contactItem.title"
+               class="contacts-item">
+            <a :href="contactItem.link" target="_blank">
               <div class="contacts-item__image tg-round">
-                <i class="fab fa-telegram-plane fa-4x"></i>
+                <i :class="contactItem.iconClass"></i>
               </div>
               <div class="contacts-item__title">
+                {{ contactItem.title }}
               </div>
             </a>
-          </div><!-- /.contacts-item -->
+          </div>
 
-          <div class="contacts-item">
-            <a href="https://github.com/coldrain96/" target="_blank">
-              <div class="contacts-item__image tg-round">
-                <i class="fab fa-github fa-4x"></i>
-              </div>
-              <div class="contacts-item__title">
-              </div>
-            </a>
-          </div><!-- /.contacts-item -->
-
-        </div><!-- /.social_networks_links__row -->
-        <div class="social_networks_links__row">
-
-          <div class="contacts-item">
-            <a href="skype:workplace.bikmetov.k.f" target="_blank">
-              <div class="contacts-item__image tg-round">
-                <i class="fab fa-skype fa-4x"></i>
-              </div>
-              <div class="contacts-item__title">
-              </div>
-            </a>
-          </div><!-- /.contacts-item -->
-
-          <div class="contacts-item">
-            <a href="mailto:bikmetov.k.f@yandex.ru?subject=Redirect from website" target="_blank">
-              <div class="contacts-item__image tg-round">
-                <i class="far fa-envelope fa-4x"></i>
-              </div>
-              <div class="contacts-item__title">
-              </div>
-            </a>
-          </div><!-- /.contacts-item -->
-
-        </div><!-- /.social_networks_links__row -->
-
+        </div>
       </div>
     </div>
     <div class="footer">
@@ -61,11 +26,11 @@
 			<span>
 				Created by
 			</span>
-          <span>Bikmetov Kamil</span>
+          <span>{{ getMyFullName }}</span>
           <span>
 				<a href="https://tele.click/coldrain96" target="_blank">@coldrain96</a>
 			</span>
-          <span class="year">{{ currentYear }}</span>
+          <span class="year">{{ getCurrentYear }}</span>
         </div>
       </div>
     </div>
@@ -73,12 +38,15 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+
   export default {
-    computed: {
-      currentYear: () => {
-        return new Date().getFullYear()
-      }
-    }
+    computed: mapGetters([
+      'getCurrentYear',
+      'getMyFullName',
+      'getMessage',
+      'getContactItemsArray',
+    ]),
   }
 </script>
 <style lang="scss" src="@/assets/scss/components/contacts.scss" scoped></style>
