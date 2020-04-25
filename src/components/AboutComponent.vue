@@ -16,7 +16,7 @@
                 <div class="about">
                   <h2>Обо мне</h2>
                   <vue-typer
-                    :text='textArray'
+                    :text='aboutMeTextMessageArray'
                     :repeat='Infinity'
                     :shuffle='false'
                     initial-action='typing'
@@ -46,14 +46,12 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+
   export default {
-    data: () => ({
-      textArray: [
-        "Привет!👋", "Меня зовут Камиль, мне 23 года, я веб-разработчик.👨‍💻",
-        "Верстаю на HTML5&CSS3, познаю  тонкости языка разметки.📝",
-        "Программирую на JavaScript. Пишу стихи и рассказы, люблю активные виды отдыха.🚲"
-      ],
-    }),
+    computed: mapGetters([
+      'aboutMeTextMessageArray'
+    ])
   }
 </script>
 <style lang="scss" src="@/assets/scss/components/about.scss" scoped></style>
