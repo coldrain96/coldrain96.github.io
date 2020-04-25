@@ -1,15 +1,15 @@
 <template>
-	<ContactsComponent></ContactsComponent>
+  <ContactsComponent></ContactsComponent>
 </template>
 
 <script>
-	import ContactsComponent from '../components/ContactsComponent'
+  import ContactsComponent from '../components/ContactsComponent'
 
-	export default {
-		components: {
-			ContactsComponent
-		}
-	}
+  export default {
+    components: {
+      ContactsComponent
+    }
+  }
 </script>
 
 <style scoped>

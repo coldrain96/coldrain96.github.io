@@ -1,15 +1,15 @@
 <template>
-<AboutComponent></AboutComponent>
+  <AboutComponent></AboutComponent>
 </template>
 
 <script>
-	import AboutComponent from '../components/AboutComponent'
+  import AboutComponent from '../components/AboutComponent'
 
-	export default {
-		components: {
-			AboutComponent
-		}
-	}
+  export default {
+    components: {
+      AboutComponent
+    }
+  }
 </script>
 
 <style scoped>

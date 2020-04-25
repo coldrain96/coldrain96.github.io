@@ -1,15 +1,15 @@
 <template>
-	<ToolsComponent></ToolsComponent>
+  <ToolsComponent></ToolsComponent>
 </template>
 
 <script>
-	import ToolsComponent from '../components/ToolsComponent'
+  import ToolsComponent from '../components/ToolsComponent'
 
-	export default {
-		components: {
-			ToolsComponent
-		}
-	}
+  export default {
+    components: {
+      ToolsComponent
+    }
+  }
 </script>
 
 <style scoped>

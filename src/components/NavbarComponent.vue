@@ -10,9 +10,6 @@
 						<router-link tag="li" class="nav-item" exact active-class="active" to="/facts">
 							<a class="nav-link">Факты</a>
 						</router-link>
-						<router-link tag="li" class="nav-item" exact active-class="active" to="/tools">
-							<a class="nav-link">Технологии</a>
-						</router-link>
 						<router-link tag="li" class="nav-item" exact active-class="active" to="/projects">
 							<a class="nav-link">Проекты</a>
 						</router-link>

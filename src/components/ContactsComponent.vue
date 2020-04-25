@@ -76,8 +76,7 @@
   export default {
     computed: {
       currentYear: () => {
-        const currentYear = new Date().getFullYear();
-        return currentYear;
+        return new Date().getFullYear();
       }
     }
   }

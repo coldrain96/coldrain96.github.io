@@ -1,15 +1,15 @@
 <template>
-	<ProjectsComponent></ProjectsComponent>
+  <ProjectsComponent></ProjectsComponent>
 </template>
 
 <script>
-	import ProjectsComponent from '../components/ProjectsComponent'
+  import ProjectsComponent from '../components/ProjectsComponent'
 
-	export default {
-		components: {
-			ProjectsComponent
-		}
-	}
+  export default {
+    components: {
+      ProjectsComponent
+    }
+  }
 </script>
 
 <style scoped>
