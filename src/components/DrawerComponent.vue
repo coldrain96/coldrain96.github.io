@@ -10,20 +10,18 @@
         </a>
       </div>
       <ul v-if="drawerActive" class="drawer__list">
-        <router-link tag="li" class="nav-item" exact active-class="active" to="/">
-          <a class="nav-link">Обо мне</a>
-        </router-link>
-        <router-link tag="li" class="nav-item" exact active-class="active" to="/facts">
-          <a class="nav-link">Факты</a>
-        </router-link>
-        <router-link tag="li" class="nav-item" exact active-class="active" to="/projects">
-          <a class="nav-link">Проекты</a>
-        </router-link>
-        <router-link tag="li" class="nav-item" exact active-class="active" to="/contacts">
-          <a class="nav-link">Контакты</a>
+        <router-link
+          v-for="route in $router.options.routes"
+          :key="route.path"
+          tag="li"
+          class="nav-item"
+          exact
+          active-class="active"
+          :to="route.path"
+        >
+          <a class="nav-link">{{ route.name }}</a>
         </router-link>
       </ul>
-
     </aside>
   </div>
 </template>
