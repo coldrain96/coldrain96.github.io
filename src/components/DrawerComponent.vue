@@ -3,7 +3,8 @@
     <aside class="drawer">
       <div class="drawer-hamburger hamburger">
         <a href="#" :class="{ activeNav: drawerActive }"
-           @click.prevent="drawerActive = !drawerActive">
+           @click.prevent="drawerActive = !drawerActive"
+        >
           <div class="hamburger-line line-1"></div>
           <div class="hamburger-line line-2"></div>
           <div class="hamburger-line line-3"></div>
