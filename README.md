@@ -1,29 +1,19 @@
 # vue-my-projects
 
-## Project setup
-```
-yarn install
-```
+## Сборка и деплой проекта.
+4. Перейти в папку vue-my-projects/
+5. Выполнить команду yarn install 
+6. Выполнить команду yarn run lint
+7. Выполнить команду yarn run serve. 
+8. Перейти по адресу в браузере: http://localhost:8080/
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Использованные инструменты:
++ Концепт/дизайн: во многом вдохновлен material design
++ Верстка: HTML/CSS, SCSS, Bootstrap 4/Bootstrap-vue, Animate.css, БЭМ
++ Frontend: Vue.js (vuex, vue-router, vue-cli, vue-masonry, vue-typer)
++ git, eslint
+## Примечания
++ Совокупное затраченное время на создание концепта дизайна, верстку, 
+программирование, добавление фич,
+рефакторинг около 7
+ рабочих дней(~56 часов).
