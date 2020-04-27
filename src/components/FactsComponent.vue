@@ -1,9 +1,8 @@
 <template>
   <section class="facts" style="animation: fadeIn 2s;">
     <div class="container">
-
-      <div class="facts--wrapper vh-100 align-items-center">
-        <h2 class="facts__title">
+      <div class="facts--wrapper page-wrapper vh-100 align-items-center">
+        <h2 class="facts__title mob-page-title">
           Интересные факты
         </h2>
         <b-row class="justify-content-center">
@@ -37,6 +36,7 @@
 
 <script>
   import { mapGetters } from 'vuex'
+
   export default {
     data: () => ({
       swiperOption: {
@@ -57,9 +57,25 @@
       }
     }),
     computed: mapGetters([
-    'getArrayOfAllFactsAboutMe'
+      'getArrayOfAllFactsAboutMe'
     ]),
   }
 </script>
 
 <style lang="scss" src="@/assets/scss/components/facts.scss" scoped></style>
+<style lang="scss" scoped>
+  @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+    /*для всех страниц*/
+    .page-wrapper {
+      padding-top: 60px;
+    }
+  }
+  @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+    .swiper-slide {
+      font-size: 24px;
+    }
+    .facts__info {
+      margin-top: 0;
+    }
+  }
+</style>
