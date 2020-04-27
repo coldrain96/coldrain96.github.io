@@ -1,11 +1,11 @@
 # vue-my-projects
 
 ## Сборка и деплой проекта.
-4. Перейти в папку vue-my-projects/
-5. Выполнить команду yarn install 
-6. Выполнить команду yarn run lint
-7. Выполнить команду yarn run serve. 
-8. Перейти по адресу в браузере: http://localhost:8080/
+1. Перейти в папку vue-my-projects/
+2. Выполнить команду yarn install 
+3. Выполнить команду yarn run lint
+4. Выполнить команду yarn run serve. 
+5. Перейти по адресу в браузере: http://localhost:8080/
 
 ## Использованные инструменты:
 + Концепт/дизайн: во многом вдохновлен material design
