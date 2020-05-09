@@ -1,31 +1,27 @@
 import Router from 'vue-router'
-import About from '../pages/About'
-import Facts from '../pages/Facts'
-import Projects from '../pages/Projects'
-import Contacts from '../pages/Contacts'
 
 export default new Router({
   routes: [
     {
       path: '/',
-      component: About,
+      component: () => import('../pages/About'),
       name: 'Обо мне'
     },
     {
       path: '/facts',
-      component: Facts,
+      component: () => import('../pages/Facts'),
       name: 'Факты'
     },
     {
       path: '/projects',
-      component: Projects,
+      component: () => import('../pages/Projects'),
       name: 'Сверстал'
     },
     {
       path: '/contacts',
-      component: Contacts,
+      component: () => import('../pages/Contacts'),
       name: 'Контакты'
     },
   ],
-  mode: 'history'
+  mode: 'hash'
 })
