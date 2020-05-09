@@ -63,19 +63,3 @@
 </script>
 
 <style lang="scss" src="@/assets/scss/components/facts.scss" scoped></style>
-<style lang="scss" scoped>
-  @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
-    /*для всех страниц*/
-    .page-wrapper {
-      padding-top: 60px;
-    }
-  }
-  @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
-    .swiper-slide {
-      font-size: 24px;
-    }
-    .facts__info {
-      margin-top: 0;
-    }
-  }
-</style>

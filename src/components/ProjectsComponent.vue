@@ -49,25 +49,3 @@
   }
 </script>
 <style lang="scss" src="@/assets/scss/components/projects.scss" scoped></style>
-<style lang="scss" scoped>
-  @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
-    /*для всех страниц*/
-    .page-wrapper {
-      padding-top: 60px;
-    }
-    .card-item__back {
-      & .description {
-        overflow: hidden;
-      }
-    }
-  }
-
-  @media only screen and (max-width: 350px), only screen and (max-device-width: 350px) {
-    .item-preview {
-      max-width: 290px;
-    }
-    .card-item__back {
-      width: 290px;
-    }
-  }
-</style>

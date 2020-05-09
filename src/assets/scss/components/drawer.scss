@@ -110,3 +110,22 @@
   font-weight: 500;
   background-color: rgba(224, 224, 224, 0.47);
 }
+
+/* ///////////////////// MEDIA ///////////////////// */
+
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+  .drawer {
+    width: 100%;
+    height: 60px;
+    background: none;
+  }
+  .drawer__list {
+    background-color: #fff;
+  }
+  .mob-page-title {
+    padding-top: 72px !important;
+  }
+  .nav-items-wrapper {
+    height: 100vh;
+  }
+}

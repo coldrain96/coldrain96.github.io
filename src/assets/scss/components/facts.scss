@@ -108,3 +108,20 @@
     right: 0;
   }
 }
+
+/* ///////////////////// MEDIA ///////////////////// */
+
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+  /*для всех страниц*/
+  .page-wrapper {
+    padding-top: 60px;
+  }
+}
+@media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+  .swiper-slide {
+    font-size: 24px;
+  }
+  .facts__info {
+    margin-top: 0;
+  }
+}

@@ -49,21 +49,3 @@
   }
 </script>
 <style lang="scss" src="@/assets/scss/components/drawer.scss" scoped></style>
-<style lang="scss" scoped>
-  @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
-    .drawer {
-      width: 100%;
-      height: 60px;
-      background: none;
-    }
-    .drawer__list {
-      background-color: #fff;
-    }
-    .mob-page-title {
-      padding-top: 72px !important;
-    }
-    .nav-items-wrapper {
-      height: 100vh;
-    }
-  }
-</style>

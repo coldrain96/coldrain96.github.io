@@ -57,3 +57,48 @@
   background-color: rgba(224, 224, 224, 0.47);;
   margin-left: 30px;
 }
+
+/* ///////////////////// MEDIA ///////////////////// */
+
+@media all and (min-width: 991px), all and (min-device-width: 991px) {
+  .mobile {
+    display: none;
+  }
+}
+@media all and (max-width: 991px), all and (max-device-width: 991px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+
+    & .about {
+      border: none;
+      padding-bottom: 0;
+      font-size: 24px;
+      max-width: none;
+    }
+
+    & .header__photo--img {
+      /*box-shadow: none;*/
+    }
+  }
+  /*для всех страниц*/
+  .page-wrapper {
+    padding-top: 60px;
+  }
+}
+
+@media all and (max-width: 576px), all and (max-device-width: 576px) {
+  .mobile {
+
+    & .about {
+      border: none;
+      padding-bottom: 0;
+      font-size: 20px;
+    }
+
+    & .header__photo--img {
+      box-shadow: 15px -15px 0px 5px rgba(224, 224, 224, 0.47);
+    }
+  }
+}
