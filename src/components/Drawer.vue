@@ -37,15 +37,8 @@
     data: () => ({
       drawerActive: false,
       overlay: false,
-    }),
-    methods: {
-      switchCurrentRoute() {
-        const routesArray = []
-        this.$router.options.routes.forEach((item) => {
-          routesArray.push(item.path)
-        })
-      }
-    }
+    })
   }
 </script>
+
 <style lang="scss" src="@/assets/scss/components/drawer.scss" scoped></style>
