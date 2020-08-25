@@ -1,6 +1,6 @@
 export default {
   state: {
-    arrayOfFactsAboutMe: [
+    factsAboutMe: [
       'Большой фанат dram and bass музыки и rave культуры. Так же люблю jazz,\n' +
       'hip-hop, jungle.💿',
       'Злоупотреблял сахаром, но с недавних пор отказался от него. Пью чай и кофе без\n' +
@@ -18,8 +18,8 @@ export default {
     ],
   },
   getters: {
-    getArrayOfAllFactsAboutMe: (state) => {
-      return state.arrayOfFactsAboutMe
+    FACTS_ABOUT_ME_GET: (state) => {
+      return state.factsAboutMe
     }
   },
 }

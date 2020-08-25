@@ -1,6 +1,6 @@
 export default {
   state: {
-    arrayOfProjects: [
+    projects: [
       {
         name: 'IT company web-site',
         href: '#',
@@ -88,8 +88,8 @@ export default {
     ],
   },
   getters: {
-    getArrayOfAllProjects: (state) => {
-      return state.arrayOfProjects
+    PROJECTS_GET: (state) => {
+      return state.projects
     },
   },
 }

@@ -4,7 +4,7 @@ export default {
     firstName: 'Kamil',
     secondName: 'Bikmetov',
     message: `Открыт к вашим предложениям, <br/>новым знакомствам, <br/>и приключениям!`,
-    contactItemsArray: [
+    contactItems: [
       {
         link: 'https://tele.click/coldrain96',
         iconClass: 'fab fa-telegram-plane fa-4x',
@@ -28,17 +28,17 @@ export default {
     ],
   },
   getters: {
-    getCurrentYear: (state) => {
+    CURRENT_YEAR_GET: (state) => {
       return state.date.getFullYear()
     },
-    getMyFullName: (state) => {
+    MY_FULL_NAME_GET: (state) => {
       return `${state.secondName} ${state.firstName}`
     },
-    getMessage: (state) => {
+    MESSAGE_GET: (state) => {
       return state.message
     },
-    getContactItemsArray: (state) => {
-      return state.contactItemsArray
+    CONTACT_ITEMS_GET: (state) => {
+      return state.contactItems
     },
   },
 }
