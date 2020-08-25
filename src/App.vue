@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import Drawer from './components/DrawerComponent'
+  import Drawer from './components/Drawer'
 
   export default {
     name: 'App',
