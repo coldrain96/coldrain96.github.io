@@ -7,10 +7,7 @@
   background-image: url("~@/assets/img/flowers2.jpg");
   background-repeat: no-repeat;
   background-size: 200px;
-  background-position: 0% 100%;
-}
-
-.facts {
+  background-position: 0 100%;
 
   &.container {
     display: flex;
@@ -18,32 +15,26 @@
     flex-direction: column;
   }
 
-}
+  &--wrapper {
+    margin: 0 auto;
+    text-align: left;
+  }
 
-.facts--wrapper {
-  //max-width: 800px;
+  & h2 {
+    text-align: center;
 
-  //max-width: 100%;
-  margin: 0 auto;
-  text-align: left;
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: center;*/
-}
+  }
 
-.facts h2 {
-  text-align: center;
-}
+  &__info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+  }
 
-.facts__info {
-  display: flex;
-  flex-direction: row;
-  margin-top: 150px;
-}
-
-.facts__count {
-  font-size: 48px;
-  margin-right: 15px;
+  &__count {
+    font-size: 48px;
+    margin-right: 15px;
+  }
 }
 
 .slide-inner {
@@ -109,14 +100,13 @@
   }
 }
 
-/* ///////////////////// MEDIA ///////////////////// */
-
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
   /*для всех страниц*/
   .page-wrapper {
     padding-top: 60px;
   }
 }
+
 @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
   .swiper-slide {
     font-size: 24px;

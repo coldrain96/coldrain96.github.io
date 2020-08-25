@@ -1,49 +1,28 @@
-@media only screen and (max-width: 1065px), only screen and (max-device-width: 1065px) {
-  /*footer-content*/
-  .footer-content {
-  }
-
-  .created-by {
-  }
-
-}
-
 @media only screen and (max-width: 930px), only screen and (max-device-width: 930px) {
-  /*contacts>social_network row column wrap*/
   .social_networks_links {
-    /*flex-flow: row nowrap;*/
     flex-flow: column nowrap;
   }
 }
 
 @media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
-
-  /*Header*/
   .header {
     font-size: 14px;
   }
-
-  /*Contacts*/
   .about-content {
     font-size: 26px;
   }
 }
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
-
-  /*created-by*/
   .footer-content {
     flex-direction: column-reverse;
   }
-
   .created-by {
     margin: 0 auto 0 auto;
   }
 }
 
 @media only screen and (max-width: 582px), only screen and (max-device-width: 582px) {
-
-  /*Header*/
   .header {
     font-size: 14px;
   }
@@ -60,14 +39,12 @@
     border-bottom-color: #FFFFFF;
   }
 
-  /*Contacts*/
   .about-content {
     font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
-  /*Contacts flex rows*/
   .social_networks_links-flex_row {
     display: block;
   }
@@ -91,7 +68,6 @@
 }
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-  /*created-by*/
   .created-by {
     padding-right: 0;
     width: 300px;

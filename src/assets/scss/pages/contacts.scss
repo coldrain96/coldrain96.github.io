@@ -1,30 +1,16 @@
-form {
-  display: flex;
-  justify-content: center;
-}
-
-.form-group {
-  max-width: 400px;
-}
-
-.madeWith {
-  max-height: 35px;
-}
-
 .contacts {
   text-decoration: none !important;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.contacts a {
-  -webkit-transition: all 0.1s ease;
-  -webkit-transition-delay: 0.1s;
-  font-size: 16px;
-  text-decoration: none !important;
-  color: #000000;
+  & a {
+    -webkit-transition: all 0.1s ease;
+    -webkit-transition-delay: 0.1s;
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #000000;
+  }
 }
 
 .social_network_link__group_2 {
@@ -75,28 +61,12 @@ form {
   color: #0088cc;
 }
 
-.fa-vk {
-  color: rgba(0, 0, 0, 0.2);
-}
-
-.fa-vk:hover {
-  color: #597da3;
-}
-
 .fa-github {
   color: rgba(0, 0, 0, 0.2);
 }
 
 .fa-github:hover {
   color: rgba(0, 0, 0, 1);
-}
-
-.fa-gitlab:hover {
-  color: #fc6d26;
-}
-
-.fa-instagram {
-  color: rgba(0, 0, 0, 0.2);
 }
 
 .fa-instagram:hover {
@@ -119,8 +89,6 @@ form {
   color: #f80404;
 }
 
-//////////////////////////////////
-
 .footer {
   box-sizing: content-box;
   background-repeat: no-repeat;
@@ -137,26 +105,15 @@ form {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-}
 
-.created-by span {
-  color: rgba(0, 0, 0, 0.6);
-}
+  & span {
+    color: rgba(0, 0, 0, 0.6);
+  }
 
-.created-by span a {
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.neutral-meme {
-  display: flex;
-  justify-content: center;
-
-  & img {
-    max-width: 640px;
+  & span a {
+    color: rgba(0, 0, 0, 0.6);
   }
 }
-
-/* ///////////////////// MEDIA ///////////////////// */
 
 @media all and (max-width: 400px), all and (max-device-width: 400px) {
   .contacts h2 {

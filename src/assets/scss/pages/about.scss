@@ -1,30 +1,25 @@
 .home {
   background-color: #f3f4f6;
-  /*height: 100vh;*/
 }
 
 .about {
   font-size: 24px;
   padding-bottom: 30px;
   border-bottom: 5px solid rgba(0, 0, 0, 0.1);
-  max-width: 700px;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   text-align: center;
-  /*padding-top: 60px;*/
-  margin-bottom: 30px;
   max-width: 360px;
-}
 
-.about p {
-  color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  max-width: 700px;
-}
+  & p {
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+  }
 
-.about h2 {
-  /*margin-top: 80px;*/
-  margin-top: 0 !important;
+  & h2 {
+    margin-top: 0 !important;
+  }
 }
 
 .header__photo--img {
@@ -58,8 +53,6 @@
   margin-left: 30px;
 }
 
-/* ///////////////////// MEDIA ///////////////////// */
-
 @media all and (min-width: 991px), all and (min-device-width: 991px) {
   .mobile {
     display: none;
@@ -78,9 +71,6 @@
       max-width: none;
     }
 
-    & .header__photo--img {
-      /*box-shadow: none;*/
-    }
   }
   /*для всех страниц*/
   .page-wrapper {
