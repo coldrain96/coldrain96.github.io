@@ -1,0 +1,44 @@
+.home {
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.header {
+  margin-bottom: 60px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0 0 0 0;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.header__list li {
+  margin: 30px;
+  list-style: none;
+}
+
+.header__list a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px !important;
+}
+
+.header__list a:hover {
+  text-decoration: none;
+  color: #000 !important;
+  font-size: 24px !important;
+}
+
+.header__photo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.router-link-exact-active {
+  font-weight: 500;
+  background-color: rgba(224, 224, 224, 0.47);
+}

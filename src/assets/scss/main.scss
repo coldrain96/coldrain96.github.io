@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'BloggerSans';
+  src: url('../fonts/BloggerSans.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSansLight';
+  src: url('../fonts/BloggerSans-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background: #f3f4f6 !important;
+  font-family: BloggerSans, sans-serif !important;
+  color: #000000 !important;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h2 {
+  font-size: 42px !important;
+  font-family: BloggerSansLight, sans-serif;
+  margin: 42px 0 !important;
+}
+
+.content_wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+}
